@@ -1,0 +1,17 @@
+<div class="input-signature-container">
+    <h2>Input Signature</h2>
+    <canvas #signatureCanvas
+      class="signature-canvas"
+      (mousedown)="startDrawing($event)"
+      (mousemove)="draw($event)"
+      (mouseup)="endDrawing()"
+      (mouseout)="endDrawing()"
+      width="400"
+      height="200">
+    </canvas>
+    <div class="button-container">
+      <button class="clear-button" (click)="clearSignature()">Clear</button>
+      <button class="save-button" (click)="saveSignature()">Save</button>
+    </div>
+  </div>
+  

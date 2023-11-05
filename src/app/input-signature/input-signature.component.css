@@ -1,0 +1,28 @@
+.input-signature-container {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .signature-canvas {
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+  
+  .button-container {
+    margin-top: 10px;
+  }
+  
+  .clear-button, .save-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .clear-button:hover, .save-button:hover {
+    background-color: #0056b3;
+  }
+  
